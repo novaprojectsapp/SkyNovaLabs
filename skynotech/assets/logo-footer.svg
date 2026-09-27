@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" fill="none" role="img" aria-label="Sky Nova Project Labs Logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" fill="none" role="img" aria-label="Skynova Project Labs Logo">
   <!-- Geometric Tech Mark (Cyan + Dark) -->
   <g transform="translate(6, 7)">
     <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" stroke="#00B8D4" stroke-width="2.5" fill="#0B0F10" />
@@ -9,6 +9,6 @@
     <line x1="4" y1="26" x2="10" y2="23" stroke="#00B8D4" stroke-width="1.5" />
   </g>
   <!-- Brand Typography (White text for dark footer) -->
-  <text x="52" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="2">SKY NOVA</text>
+  <text x="52" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="2">SKYNOVA</text>
   <text x="53" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="8.5" font-weight="700" fill="#00B8D4" letter-spacing="3.2">PROJECT LABS</text>
 </svg>
