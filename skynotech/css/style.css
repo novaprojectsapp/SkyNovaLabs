@@ -1,17 +1,20 @@
 /* ==========================================================================
-   SKY NOVA PROJECT LABS - OFFICIAL CORPORATE STYLESHEET
+   SKYNOVA LABS - OFFICIAL CORPORATE STYLESHEET
    Clean, Lightweight, Responsive, Balanced Corporate Technology Style
-   Palette: Bright Cyan (#41FDFE) for accents/surfaces, Deep Cyan (#067A8C) for
-             text on white, Dark (#0B0F10), White (#FFFFFF),
-             Off-White (#F7F9FA), Light Gray (#EEF2F3), Border (#DDE3E6)
+   Palette: Primary Green (#007A58) for accents/surfaces/buttons,
+              Deep Green (#00523C) for hover/strong contrast,
+              Accent Green (#16A67A) for icons/details/hover fills,
+              Dark (#0B0F10), White (#FFFFFF),
+              Off-White (#F7F9FA), Light Gray (#EEF2F3), Border (#DDE3E6)
    Strictly Zero Heavy Animation Libraries - Pure Native CSS
    ========================================================================== */
 
 :root {
-  --primary: #41FDFE;
-  --primary-hover: #35D8DB;
-  --primary-text: #067A8C;
-  --on-primary: #0B0F10;
+  --primary: #007A58;
+  --primary-hover: #00523C;
+  --primary-text: #007A58;
+  --accent: #16A67A;
+  --on-primary: #FFFFFF;
   --dark: #0B0F10;
   --dark-surface: #151A1D;
   --black: #050505;
@@ -20,7 +23,8 @@
   --light-gray: #EEF2F3;
   --text-dark: #1B1F23;
   --text-gray: #5F6B73;
-  --text-muted: #8C969F;
+  --text-muted: #5A656D;
+  --text-muted-dark: #8C969F;
   --border: #DDE3E6;
   --border-light: #EAEFF2;
   --border-dark: #24292E;
@@ -244,7 +248,7 @@ p {
 .btn-outline:hover {
   border-color: var(--primary);
   color: var(--primary-text);
-  background-color: rgba(65, 253, 254, 0.04);
+  background-color: rgba(0, 122, 88, 0.04);
 }
 
 .btn-cyan-outline {
@@ -434,7 +438,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--primary-text);
-  border: 1px solid rgba(65, 253, 254, 0.3);
+  border: 1px solid rgba(0, 122, 88, 0.3);
   padding: 5px 14px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -588,7 +592,7 @@ p {
 
 .service-card:hover {
   border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(65, 253, 254, 0.06);
+  box-shadow: 0 4px 12px rgba(0, 122, 88, 0.06);
 }
 
 .service-icon {
@@ -756,7 +760,7 @@ p {
 }
 
 /* --------------------------------------------------------------------------
-   PARENT COMPANY SECTION (Powered by Sky Nova Tech Solutions)
+   OUR GROUP SECTION (Sky Nova Tech Solutions)
    -------------------------------------------------------------------------- */
 .parent-company-card {
   background: var(--white);
@@ -897,7 +901,7 @@ p {
 
 .review-card:hover {
   border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(65, 253, 254, 0.06);
+  box-shadow: 0 4px 12px rgba(0, 122, 88, 0.06);
 }
 
 .review-card-top {
@@ -1053,7 +1057,7 @@ p {
 .reviews-nav-btn:hover:not(:disabled) {
   border-color: var(--primary);
   color: var(--primary-text);
-  background-color: rgba(65, 253, 254, 0.04);
+  background-color: rgba(0, 122, 88, 0.04);
 }
 
 .reviews-nav-btn:disabled {
@@ -1170,7 +1174,7 @@ p {
 
 .form-message.success {
   display: block;
-  color: #00897B;
+  color: #007A58;
   font-weight: 600;
 }
 
@@ -1431,7 +1435,7 @@ p {
 
 select.form-control {
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23067A8C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23007A58' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 16px center;
   padding-right: 40px;
@@ -1561,7 +1565,7 @@ textarea.form-control {
 }
 
 .footer-link:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .footer-contact-list {
@@ -1577,7 +1581,7 @@ textarea.form-control {
 }
 
 .footer-contact-list a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .footer-meta-item {
@@ -1590,7 +1594,7 @@ textarea.form-control {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .footer-bottom {

@@ -1,5 +1,5 @@
 /**
- * Sky Nova Project Labs - Official Corporate JavaScript
+ * SkyNova Labs - Official Corporate JavaScript
  * Vanilla JS only. Zero heavy dependencies, zero animation libraries.
  * Handles: Responsive Navigation, Form Validations (Frontend Only),
  *          Client Reviews Scroll-Snap Slider
