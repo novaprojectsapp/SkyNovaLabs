@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" fill="none" role="img" aria-label="Sky Nova Project Labs Logo">
+  <!-- Geometric Tech Mark (Cyan + Dark) -->
+  <g transform="translate(6, 7)">
+    <!-- Outer Cyan Hexagon Frame -->
+    <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" stroke="#00B8D4" stroke-width="2.5" fill="#EEF2F3" />
+    <!-- Inner Core & Nodes -->
+    <polygon points="18,8 26,13 26,23 18,28 10,23 10,13" stroke="#0097A7" stroke-width="1.5" fill="#FFFFFF" />
+    <circle cx="18" cy="18" r="3.5" fill="#00B8D4" />
+    <!-- Connectors -->
+    <line x1="18" y1="2" x2="18" y2="8" stroke="#00B8D4" stroke-width="2" />
+    <line x1="32" y1="26" x2="26" y2="23" stroke="#00B8D4" stroke-width="1.5" />
+    <line x1="4" y1="26" x2="10" y2="23" stroke="#00B8D4" stroke-width="1.5" />
+  </g>
+  <!-- Brand Typography (Dark text for light corporate header) -->
+  <text x="52" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#1B1F23" letter-spacing="2">SKY NOVA</text>
+  <text x="53" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="8.5" font-weight="700" fill="#00B8D4" letter-spacing="3.2">PROJECT LABS</text>
+</svg>
